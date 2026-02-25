@@ -1,0 +1,18 @@
+{
+  "type": "micro",
+  "version": 2,
+  "wake_word": "miluy_dom2_2_11_lh",
+  "author": "GreenGarden",
+  "website": "https://github.com/arturgadelshin/wakeword_miluy_dom_2",
+  "model": "stream_state_internal_quant.tflite",
+  "trained_languages": [
+    "ru"
+  ],
+  "micro": {
+    "probability_cutoff": 0.03,
+    "feature_step_size": 10,
+    "sliding_window_size": 5,
+    "tensor_arena_size": 65000,
+    "minimum_esphome_version": "2024.7.0"
+  }
+}
